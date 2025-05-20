@@ -6,9 +6,12 @@ import App from './App.jsx'
 import { ThemeProvider } from '@emotion/react'
 import theme from './components/CreateTheme.jsx'
 createRoot(document.getElementById('root')).render(
-    <ThemeProvider theme={theme}>
+  createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
-  </StrictMode>,
+    <ThemeProvider theme={theme}>
+      <App />
     </ThemeProvider>
+  </StrictMode>
+  )
+
 )
