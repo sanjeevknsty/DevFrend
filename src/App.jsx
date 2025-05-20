@@ -8,7 +8,6 @@ import OurCommitment from './components/OurCommitment';
 import Pricing from './components/Pricing';
 import WorkShop from './components/WorkShop';
 import ExpertStylists from './components/ExpertStylists';
-import Contact from './components/Contact';
 import BookYourAppointment from './components/BookYourAppointment';
 import CommonQuestions from './components/CommonQuestions';
 import VisitOurShop from './components/VisitOurShop';
